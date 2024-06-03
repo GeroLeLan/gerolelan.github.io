@@ -3,13 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Subir Imagen</title>
+    <title>Upload X-Ray Image</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <h1>Subir Imagen de Radiografía</h1>
-    <form action="/diagnose" method="post" enctype="multipart/form-data">
-        <input type="file" name="file" accept="image/*">
-        <input type="submit" value="Subir">
-    </form>
+<body class="dark-theme">
+    <div class="container">
+        <h1>Upload X-Ray Image</h1>
+        <div class="upload-container">
+            <div class="upload-inner">
+                <label for="fileInput" class="upload-label">Select or Drag and Drop Images Here</label>
+                <input type="file" id="fileInput" multiple accept="image/*">
+            </div>
+            <div id="imagePreview" class="image-preview"></div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 PneumoDiagnoseNet. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
