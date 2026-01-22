@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerónimo Le Lan Toussaint - Full Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Language Toggle -->
+    <button class="lang-toggle" id="langToggle" aria-label="Change language">
+        <span class="lang-option" data-lang="es">ES</span>
+        <span class="lang-divider">/</span>
+        <span class="lang-option active" data-lang="en">EN</span>
+    </button>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="name-line">Gerónimo</span>
+                        <span class="name-line">Le Lan Toussaint</span>
+                    </h1>
+                    <p class="hero-subtitle" data-en="Information Systems Engineer" data-es="Ingeniero en Sistemas de Información">
+                        Information Systems Engineer
+                    </p>
+                    <p class="hero-description" 
+                       data-en="Full Stack Developer specializing in web and mobile applications. Passionate about clean code, AI integration, and creating seamless user experiences."
+                       data-es="Desarrollador Full Stack especializado en aplicaciones web y móviles. Apasionado por el código limpio, la integración de IA y la creación de experiencias de usuario excepcionales.">
+                        Full Stack Developer specializing in web and mobile applications. Passionate about clean code, AI integration, and creating seamless user experiences.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn btn-primary" data-en="Get in touch" data-es="Contactar">Get in touch</a>
+                        <a href="#projects" class="btn btn-secondary" data-en="View work" data-es="Ver proyectos">View work</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="code-window">
+                        <div class="window-header">
+                            <div class="window-dots">
+                                <span></span><span></span><span></span>
+                            </div>
+                            <span class="window-title">developer.profile</span>
+                        </div>
+                        <div class="code-content">
+                            <code>
+<span class="code-keyword">const</span> <span class="code-variable">developer</span> = {
+  <span class="code-property">name</span>: <span class="code-string">"Gerónimo Le Lan"</span>,
+  <span class="code-property">role</span>: <span class="code-string">"Full Stack Engineer"</span>,
+  <span class="code-property">location</span>: <span class="code-string">"🇦🇷 Bahía Blanca"</span>,
+  <span class="code-property">languages</span>: [<span class="code-string">"ES"</span>, <span class="code-string">"EN"</span>, <span class="code-string">"DE"</span>],
+  <span class="code-property">stack</span>: {
+    <span class="code-property">frontend</span>: [<span class="code-string">"Flutter"</span>, <span class="code-string">"React"</span>],
+    <span class="code-property">backend</span>: [<span class="code-string">"Laravel"</span>, <span class="code-string">"FastAPI"</span>],
+    <span class="code-property">ai</span>: [<span class="code-string">"TensorFlow"</span>, <span class="code-string">"Keras"</span>]
+  },
+  <span class="code-property">passion</span>: <span class="code-string">"Building digital solutions"</span>
+};</code>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg"></div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <h2 class="section-title" data-en="Experience" data-es="Experiencia">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 data-en="Freelance Full Stack Developer" data-es="Desarrollador Full Stack Freelance">
+                                Freelance Full Stack Developer
+                            </h3>
+                            <span class="timeline-date">2025 - <span data-en="Present" data-es="Actualidad">Present</span></span>
+                        </div>
+                        <p class="timeline-description" 
+                           data-en="Complete development of web and mobile applications for service booking. Using Flutter/React for multiplatform interfaces and Laravel backend with API integration, authentication, and admin panels. MySQL database design and implementation."
+                           data-es="Desarrollo completo de aplicaciones web y móviles para contratación de servicios. Uso de Flutter/React para interfaces multiplataforma y backend en Laravel con integración de APIs, autenticación y paneles de administración. Diseño e implementación de bases de datos MySQL.">
+                            Complete development of web and mobile applications for service booking. Using Flutter/React for multiplatform interfaces and Laravel backend with API integration, authentication, and admin panels. MySQL database design and implementation.
+                        </p>
+                        <div class="tech-tags">
+                            <span>Flutter</span>
+                            <span>React</span>
+                            <span>Laravel</span>
+                            <span>MySQL</span>
+                            <span>REST API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 data-en="Web Maintenance" data-es="Mantenimiento Web">Web Maintenance</h3>
+                            <span class="timeline-company">Fractal Comunicación</span>
+                            <span class="timeline-date">2023 - <span data-en="Present" data-es="Actualidad">Present</span></span>
+                        </div>
+                        <p class="timeline-description"
+                           data-en="Updating and maintaining WordPress websites. Fixing display and functionality issues. Applying best development practices."
+                           data-es="Actualización y mantenimiento de sitios WordPress. Corrección de errores de visualización y funcionalidad. Aplicación de buenas prácticas de desarrollo.">
+                            Updating and maintaining WordPress websites. Fixing display and functionality issues. Applying best development practices.
+                        </p>
+                        <div class="tech-tags">
+                            <span>WordPress</span>
+                            <span>PHP</span>
+                            <span>JavaScript</span>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 data-en="Web Developer Intern" data-es="Pasantía Desarrollador Web">Web Developer Intern</h3>
+                            <span class="timeline-company">Globant</span>
+                            <span class="timeline-date">2022 - 2023</span>
+                        </div>
+                        <p class="timeline-description"
+                           data-en="Development using pure PHP, WordPress, and Drupal. Teamwork under agile methodologies. Participation in company web projects."
+                           data-es="Desarrollo utilizando PHP puro, WordPress y Drupal. Trabajo en equipo bajo metodologías ágiles. Participación en proyectos web de la empresa.">
+                            Development using pure PHP, WordPress, and Drupal. Teamwork under agile methodologies. Participation in company web projects.
+                        </p>
+                        <div class="tech-tags">
+                            <span>PHP</span>
+                            <span>WordPress</span>
+                            <span>Drupal</span>
+                            <span>Agile</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title" data-en="Featured Project" data-es="Proyecto Destacado">Featured Project</h2>
+            <div class="project-featured">
+                <div class="project-image">
+                    <div class="ai-visual">
+                        <div class="neural-network">
+                            <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Neural network visualization -->
+                                <g class="layer input-layer">
+                                    <circle cx="50" cy="75" r="8" />
+                                    <circle cx="50" cy="125" r="8" />
+                                    <circle cx="50" cy="175" r="8" />
+                                    <circle cx="50" cy="225" r="8" />
+                                </g>
+                                <g class="layer hidden-layer-1">
+                                    <circle cx="150" cy="50" r="8" />
+                                    <circle cx="150" cy="100" r="8" />
+                                    <circle cx="150" cy="150" r="8" />
+                                    <circle cx="150" cy="200" r="8" />
+                                    <circle cx="150" cy="250" r="8" />
+                                </g>
+                                <g class="layer hidden-layer-2">
+                                    <circle cx="250" cy="75" r="8" />
+                                    <circle cx="250" cy="125" r="8" />
+                                    <circle cx="250" cy="175" r="8" />
+                                    <circle cx="250" cy="225" r="8" />
+                                </g>
+                                <g class="layer output-layer">
+                                    <circle cx="350" cy="100" r="8" />
+                                    <circle cx="350" cy="150" r="8" />
+                                    <circle cx="350" cy="200" r="8" />
+                                </g>
+                                <!-- Connections -->
+                                <g class="connections" opacity="0.3">
+                                    <!-- Input to Hidden 1 -->
+                                    <line x1="50" y1="75" x2="150" y2="50" />
+                                    <line x1="50" y1="75" x2="150" y2="100" />
+                                    <line x1="50" y1="125" x2="150" y2="100" />
+                                    <line x1="50" y1="125" x2="150" y2="150" />
+                                    <line x1="50" y1="175" x2="150" y2="150" />
+                                    <line x1="50" y1="175" x2="150" y2="200" />
+                                    <line x1="50" y1="225" x2="150" y2="200" />
+                                    <line x1="50" y1="225" x2="150" y2="250" />
+                                    <!-- Hidden 1 to Hidden 2 -->
+                                    <line x1="150" y1="50" x2="250" y2="75" />
+                                    <line x1="150" y1="100" x2="250" y2="125" />
+                                    <line x1="150" y1="150" x2="250" y2="125" />
+                                    <line x1="150" y1="150" x2="250" y2="175" />
+                                    <line x1="150" y1="200" x2="250" y2="175" />
+                                    <line x1="150" y1="250" x2="250" y2="225" />
+                                    <!-- Hidden 2 to Output -->
+                                    <line x1="250" y1="75" x2="350" y2="100" />
+                                    <line x1="250" y1="125" x2="350" y2="150" />
+                                    <line x1="250" y1="175" x2="350" y2="150" />
+                                    <line x1="250" y1="175" x2="350" y2="200" />
+                                    <line x1="250" y1="225" x2="350" y2="200" />
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title" data-en="AI Medical Diagnosis System" data-es="Sistema de Diagnóstico Médico con IA">
+                        AI Medical Diagnosis System
+                    </h3>
+                    <p class="project-subtitle" data-en="Final Degree Project" data-es="Proyecto Final de Carrera">
+                        Final Degree Project
+                    </p>
+                    <p class="project-description"
+                       data-en="Development of an artificial intelligence system to assist in medical diagnosis using deep learning techniques. Implementation of convolutional neural networks (CNN) with TensorFlow and Keras for medical image analysis. REST API built with FastAPI for model integration, and interactive web interface for X-ray image upload and result visualization."
+                       data-es="Desarrollo de un sistema de inteligencia artificial para asistir en el diagnóstico médico utilizando técnicas de aprendizaje profundo. Implementación de redes neuronales convolucionales (CNN) con TensorFlow y Keras para análisis de imágenes médicas. API REST construida con FastAPI para integración del modelo, e interfaz web interactiva para carga de radiografías y visualización de resultados.">
+                        Development of an artificial intelligence system to assist in medical diagnosis using deep learning techniques. Implementation of convolutional neural networks (CNN) with TensorFlow and Keras for medical image analysis. REST API built with FastAPI for model integration, and interactive web interface for X-ray image upload and result visualization.
+                    </p>
+                    <div class="tech-tags">
+                        <span>TensorFlow</span>
+                        <span>Keras</span>
+                        <span>FastAPI</span>
+                        <span>Python</span>
+                        <span>JavaScript</span>
+                        <span>CNN</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title" data-en="Technologies & Skills" data-es="Tecnologías y Habilidades">Technologies & Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 data-en="Frontend" data-es="Frontend">Frontend</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Flutter</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 data-en="Backend" data-es="Backend">Backend</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Laravel</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">FastAPI</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Kotlin</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 data-en="Database" data-es="Base de Datos">Database</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">Database Design</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 data-en="AI & Machine Learning" data-es="IA y Aprendizaje Automático">AI & Machine Learning</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">Keras</span>
+                        <span class="skill-tag">Deep Learning</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 data-en="CMS & Tools" data-es="CMS y Herramientas">CMS & Tools</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">WordPress</span>
+                        <span class="skill-tag">Drupal</span>
+                        <span class="skill-tag">Git / GitHub</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 data-en="Languages" data-es="Idiomas">Languages</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Spanish (Native)</span>
+                        <span class="skill-tag">English (B2)</span>
+                        <span class="skill-tag">German (A1)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title" data-en="Let's Connect" data-es="Conectemos">Let's Connect</h2>
+            <p class="contact-intro" 
+               data-en="I'm currently looking for new opportunities to grow professionally and apply my knowledge. Feel free to reach out!"
+               data-es="Actualmente busco nuevas oportunidades para crecer profesionalmente y aplicar mis conocimientos. ¡No dudes en contactarme!">
+                I'm currently looking for new opportunities to grow professionally and apply my knowledge. Feel free to reach out!
+            </p>
+            <div class="contact-methods">
+                <a href="mailto:gerolelant@gmail.com" class="contact-card">
+                    <div class="contact-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                    </div>
+                    <div class="contact-info">
+                        <h3 data-en="Email" data-es="Correo">Email</h3>
+                        <p>gerolelant@gmail.com</p>
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/in/geronimolelan" target="_blank" rel="noopener" class="contact-card">
+                    <div class="contact-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                        </svg>
+                    </div>
+                    <div class="contact-info">
+                        <h3>LinkedIn</h3>
+                        <p>@geronimolelan</p>
+                    </div>
+                </a>
+                <a href="tel:+542914325282" class="contact-card">
+                    <div class="contact-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                        </svg>
+                    </div>
+                    <div class="contact-info">
+                        <h3 data-en="Phone" data-es="Teléfono">Phone</h3>
+                        <p>+54 291 432-5282</p>
+                    </div>
+                </a>
+                <div class="contact-card location">
+                    <div class="contact-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                    </div>
+                    <div class="contact-info">
+                        <h3 data-en="Location" data-es="Ubicación">Location</h3>
+                        <p>Bahía Blanca, Argentina</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Gerónimo Le Lan Toussaint. <span data-en="All rights reserved." data-es="Todos los derechos reservados.">All rights reserved.</span></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
