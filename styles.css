@@ -436,7 +436,12 @@ body {
     border: 1px solid var(--border);
     border-radius: 16px;
     padding: 48px;
+    margin-bottom: 48px;
     transition: var(--transition);
+}
+
+.project-featured:last-child {
+    margin-bottom: 0;
 }
 
 .project-featured:hover {
@@ -502,6 +507,16 @@ body {
     margin-bottom: 8px;
 }
 
+.project-title a {
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.project-title a:hover {
+    color: var(--accent);
+}
+
 .project-subtitle {
     color: var(--accent);
     font-size: 14px;
@@ -515,6 +530,10 @@ body {
     color: var(--text-secondary);
     line-height: 1.8;
     margin-bottom: 24px;
+}
+
+.project-content .tech-tags {
+    margin-bottom: 28px;
 }
 
 /* Skills Section */

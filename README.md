@@ -16,6 +16,11 @@ Plataforma para contratar servicios domésticos o ofrecer tus servicios como tra
 
 Platform to hire domestic services or offer your services as a worker.
 
+### [SoluVa](https://soluva.com.ar/)
+Otra plataforma de marketplace de servicios, con el mismo objetivo y funcionalidad que Tidy.
+
+Another service marketplace platform, sharing the same objective and functionality as Tidy.
+
 ---
 
 ## ✨ Características / Features
@@ -74,7 +79,7 @@ In `styles.css`, modify the CSS variables at the beginning of the file:
 ## 📧 Contacto / Contact
 
 - **Email**: gerolelant@gmail.com
-- **LinkedIn**: [linkedin.com/in/geronimolelan](https://www.linkedin.com/in/geronimolelan)
+- **LinkedIn**: [linkedin.com/in/geronimo-le-lan-toussaint](https://www.linkedin.com/in/ger%C3%B3nimo-le-lan-toussaint-845564252/)
 - **Ubicación / Location**: Bahía Blanca, Argentina
 
 ---
